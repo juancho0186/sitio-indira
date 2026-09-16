@@ -337,6 +337,15 @@
   .fab:hover { transform: scale(1.06); color: var(--contrast); }
   @media (prefers-reduced-motion: reduce) { .fab { transition: none; } }
 </style>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BE5VGE3XNQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BE5VGE3XNQ');
+</script>
 </head>
 <body>
 
@@ -532,9 +541,9 @@
             <span class="icon-circle"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h3l1.6 4.2-2 1.6a13 13 0 006 6l1.6-2L19 15.5V19a1.6 1.6 0 01-1.6 1.6C10 20.6 3.4 14 3.4 6.6A1.6 1.6 0 015 4z"/></svg></span>
             8702-6824 (Llamada)
           </a>
-          <a href="mailto:mfservicioscontablesyti@gmail.com">
+          <a href="mailto:moralesnatalia11@yahoo.es">
             <span class="icon-circle"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></span>
-            mfservicioscontablesyti@gmail.com
+            moralesnatalia11@yahoo.es
           </a>
         </div>
       </div>
@@ -546,7 +555,7 @@
           <input type="email" id="cf-email" placeholder="Correo electrónico">
           <input type="tel" id="cf-phone" placeholder="Teléfono">
           <textarea id="cf-message" rows="4" placeholder="Cuéntame sobre su empresa o consulta"></textarea>
-          <a id="cf-submit" class="btn btn-gold" href="mailto:mfservicioscontablesyti@gmail.com?subject=Consulta%20de%20servicios%20contables" style="justify-content:center;">Enviar consulta</a>
+          <a id="cf-submit" class="btn btn-gold" href="mailto:moralesnatalia11@yahoo.es?subject=Consulta%20de%20servicios%20contables" style="justify-content:center;">Enviar consulta</a>
           <div class="form-status" id="cf-status">Se abrirá su aplicación de correo con el mensaje listo para enviar.</div>
         </div>
       </div>
@@ -578,7 +587,7 @@
         '\nCorreo: ' + emailEl.value.trim() +
         '\n\nMensaje:\n' + messageEl.value.trim()
       );
-      submitEl.href = 'mailto:mfservicioscontablesyti@gmail.com?subject=' + subject + '&body=' + body;
+      submitEl.href = 'mailto:moralesnatalia11@yahoo.es?subject=' + subject + '&body=' + body;
     }
 
     [nameEl, emailEl, phoneEl, messageEl].forEach(function (el) {
